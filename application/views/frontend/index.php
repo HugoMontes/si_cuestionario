@@ -6,6 +6,6 @@
 </head>
 <body>
 	<h1>Bienvenido</h1>
-	<a href="<?php echo base_url();?>index.php/backend/escritorio">Administrador</a>
+	<a href="<?php echo base_url();?>index.php/backend/login">Administrador</a>
 </body>
 </html>
