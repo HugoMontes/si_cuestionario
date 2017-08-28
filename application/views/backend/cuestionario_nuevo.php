@@ -24,9 +24,14 @@
               <label for="txtTitulo">Título del cuestionario <span>*</span></label>
               <input type="email" class="form-control" id="txtTitulo" placeholder="Ingresar el título del cuestionario">
             </div>
+            <div class="panel panel-primary">
+              <div class="panel-heading"><h3 class="panel-title">Preguntas</h3></div>
+              <div class="panel-body">
+                <p>Podra ingresar las preguntas después de guardar.</p>
+              </div>
+            </div>
             <div class="form-group">
-              <label for="txtTitulo">Estado</label>
-              <div class="row">
+              <label for="txtEstadoCuestionario">Estado del cuestionario <span>*</span></label>              <div class="row">
                 <div class="col-sm-6">
                   <select class="form-control">
                     <option>Publicado</option>
@@ -34,10 +39,6 @@
                   </select>
                 </div>
               </div>
-            </div>
-            <div class="form-group">
-              <label for="txtTitulo">Preguntas</label>
-              <p>Podra ingresar las preguntas después de guardar.</p>
             </div>
             <button type="submit" class="btn btn-default">Cerrar</button>
             <button type="submit" class="btn btn-primary">Guardar</button>
